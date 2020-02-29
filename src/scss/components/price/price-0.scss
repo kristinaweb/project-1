@@ -1,0 +1,65 @@
+.m-price {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  &__cards {
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  &__card {
+      max-width: 400px;
+      margin: 20px auto;
+    &-title {
+      padding-top: 14px;
+      padding-bottom: 14px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      &--blue {
+        background-color: #3f72af;
+      }
+      &--green {
+        background-color: #112d4e;
+      }
+    }
+    &-maney {
+      span:nth-child(2) {
+        font-size: 50px;
+      }
+      &--blue {
+        span {
+          color: #3f72af;
+        }
+      }
+      &--green {
+        span {
+          color: #112d4e;
+        }
+      }
+    }
+    &-list {
+      ul {
+        list-style: none;
+        padding: 0;
+        li {
+          padding-bottom: 5px;
+        }
+      }
+    }
+    &-link {
+      padding: 14px 55px;
+      display: block;
+      border-radius: 60px;
+      text-decoration: none;
+      color: #fff;
+      max-width: 201px;
+      margin: 0 auto;
+      &--blue {
+        background-color: #3f72af;
+      }
+      &--green {
+        background-color: #112d4e;
+      }
+    }
+  }
+}

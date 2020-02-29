@@ -1,0 +1,12 @@
+@media (min-width: 1170px) {
+    .m-footer {
+        &__menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            &-col {
+                width: 20%;
+            }
+        }
+    }
+}

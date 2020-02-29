@@ -1,0 +1,83 @@
+@import "./include/header.scss";
+@import "./include/smart.scss";
+@import "./include/features.scss";
+@import "./include/works.scss";
+@import "./include/banner.scss";
+@import "./include/form.scss";
+@import "./include/price.scss";
+@import "./include/partners.scss";
+@import "./include/faq.scss";
+@import "./include/footer.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Roboto-Regular";
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input {
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto/Roboto-Regular.eot");
+  src: url("../fonts/Roboto/Roboto-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Roboto/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Medium";
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Medium.eot");
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Playfair_Display/PlayfairDisplay-Medium.woff") format("woff"),
+    url("../fonts/Playfair_Display/PlayfairDisplay-Medium.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.m-block__head {
+  text-align: center;
+  h2 {
+    font-family: "PlayfairDisplay-Medium";
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 34px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 760px) {
+  button {
+    font-size: 16px;
+  }
+}

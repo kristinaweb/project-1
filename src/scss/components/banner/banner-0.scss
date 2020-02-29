@@ -1,0 +1,27 @@
+.m-banner {
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    &__wrapper {
+        background-color: #3F72AF;
+        color: #fff;
+        position: relative;
+        a {
+            padding: 20px 60px;
+            display: block;
+            border-radius: 60px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #112D4E;
+            max-width: 201px;
+            margin: 0 auto;
+        }
+    }
+    &__wrapper:before,  &__wrapper:after {
+        content: '';
+    }
+    &__info {
+        padding: 70px 30px;
+    }
+}

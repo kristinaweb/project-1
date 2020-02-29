@@ -1,0 +1,27 @@
+.m-form {
+    padding: 20px 10px;
+    background-color: #3F72AF;
+    z-index: 2;
+    &__container {;
+        text-align: center;
+        label {
+            display: block;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            color: #FFFFFF;
+        }
+        input {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 10px;
+            min-height: 35px;
+            border: none;
+            border-radius: 60px;
+        }
+        input[type='submit'] {
+            background-color: transparent;
+            border: 1px solid #FFFFFF;
+            color: #FFFFFF;
+        }
+    }
+}

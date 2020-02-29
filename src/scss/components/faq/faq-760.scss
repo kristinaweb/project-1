@@ -1,0 +1,14 @@
+@media(min-width: 760px) {
+    .m-faq {
+        padding-left: 10px;
+        padding-right: 10px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li {
+                flex-basis: 45%;
+            }
+        }
+    }
+}

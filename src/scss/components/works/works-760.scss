@@ -1,0 +1,15 @@
+@media (min-width:760px) {
+    .m-works {
+        padding-top: 70px;
+        padding-bottom: 60px;
+        &__cards {
+            &-wrapper {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        &__card {
+            width: 33%;
+        }
+    }
+}

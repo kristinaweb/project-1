@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    @@include('components/header.html')
+    <main>
+      <div class="container">
+        @@include('components/smart.html')
+        @@include('components/features.html')
+        @@include('components/works.html')
+        @@include('components/banner.html')
+      </div>
+      @@include('components/form.html')
+      <div class="container">
+        @@include('components/price.html')
+      </div>
+      @@include('components/partners.html')
+      <div class="container">
+        @@include('components/faq.html')
+      </div>
+    </main>
+    @@include('components/footer.html')
+
+    <script src="js/custom/main.js"></script>
+  </body>
+</html>

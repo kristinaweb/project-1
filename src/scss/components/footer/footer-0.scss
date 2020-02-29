@@ -1,0 +1,24 @@
+.m-footer {
+    color: #fff;
+    background-color: #112D4E;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 54px;
+    padding-bottom: 23px;
+    &__logo {
+        img {
+            width: auto;
+        }
+    }
+    &__menu {
+        &-col {
+            ul {
+                list-style: none;
+                padding: 0;
+                li a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

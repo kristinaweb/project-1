@@ -1,0 +1,19 @@
+@media (min-width: 760px) {
+    .m-features {
+        &__head {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        &__cards {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        &__card:not(:last-child) {
+            margin-right: 10px;
+        }
+    
+    }
+    
+}

@@ -1,0 +1,25 @@
+@media(min-width: 760px) {
+    .m-banner {
+        &__wrapper {
+            max-width: 757px;
+            margin: 0 auto;
+        }
+        &__wrapper:before,  &__wrapper:after {
+            content: url('../images/main/decor.png');
+            position: absolute;
+            opacity: .2;
+        }
+        &__wrapper:before {
+            left: 0;
+            top: 0; 
+        }
+        &__wrapper:after {
+            bottom: 0;
+            right: 0;
+            transform: rotate(180deg);
+        }
+        &__info {
+            padding: 70px 112px;
+        }
+    } 
+}

@@ -1,0 +1,40 @@
+.m-smart {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    h1 {
+        font-family: 'PlayfairDisplay-Medium';
+        font-size: 20px;
+        margin-top: 26px;
+    }
+    &__form {
+        input {
+            background-color: #DBE2EF;
+            padding: 10px;
+            color: #666666;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        &-submit {
+            input {
+                background-color: #3F72AF;
+                color: #fff;
+            }
+            
+        }
+    }
+    &__image {
+        background-color: #DBE2EF;
+        padding: 10px;
+        img {
+            position: relative;
+            bottom: -30px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    }
+}

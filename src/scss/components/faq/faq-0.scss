@@ -1,0 +1,17 @@
+.m-faq {
+  padding: 50px 10px;
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  &__link {
+    padding: 14px 55px;
+    display: block;
+    border-radius: 60px;
+    text-decoration: none;
+    color: #fff;
+    max-width: fit-content;
+    margin: 0 auto;
+    background-color: #3f72af;
+  }
+}

@@ -1,0 +1,22 @@
+@media (min-width: 760px) {
+    .m-header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        &__logo {
+            img {
+                max-width: none;
+            }
+        }
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__navigation {
+            margin-top: 0;
+            justify-content: flex-start;
+            button:not(:last-child) {
+                margin-right: 50px;
+            }
+        }
+    }
+}
